@@ -7366,7 +7366,7 @@
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
         fixed: true,                //是否附着页面底部，否为false
-        autoplay: true,             //是否自动播放，否为false,移动端不能生效
+        autoplay: false,             //是否自动播放，否为false,移动端不能生效
         volume: 0.6,                //初始音量（0~1）
         lrcType: 3,                 //歌词模式（1、HTML模式 2、js模式 3、lrc文件模式）
         mutex: true,                //互斥模式：阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
@@ -7413,7 +7413,7 @@
         <div class="row">
          <div class="col-sm-12">
           <blockquote>
-<!-- <h3><span style="color:#FF0000;"></span></h3>
+<!-- <h3><span style="color:#0000ff;">其他收藏</span></h3>
 <script type="text/javascript" language="javascript">
 function Toggle()
 {
@@ -7442,7 +7442,7 @@ function Toggle()
           }
 </script>
 <div>
-<p><div style="text-align:center;color:#FF0000;font-size: 18px;"></div></p>
+<p><div style="text-align:center;color:#0000ff;font-size: 18px;">其他收藏</div></p>
 <div id = "showdiv" style="display:none;">
 	   
 	   <p>在线识别字体网站：<a href="https://blog.csdn.net/weixin_42596182/article/details/97045669" target="_blank">查看</a></p>
